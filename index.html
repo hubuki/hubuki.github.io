@@ -4,7 +4,7 @@
         <title>Bottle Neck</title>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -32,35 +32,66 @@
         <div class="top-area">
             <img src="pic/bottle-691599.jpg" style="transform: translate3d(0px, 0px, 0px);" width="100%">
             <div>
-                <h1 class="text-center"><span>
+                <h1 class="text-center">
                     <small>ALWAYS Orz</small><br>
                     Bottle Neck
-                </span>
                 </h1>
             </div>
         </div>
-         
-        <p>This a practice page done by Bottle and it supposed to be a personal introduction page.</p>
+        
+        <div class="container-fluid">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">ABOUT ME</div>
+                <div class="panel-body">
+                    <div class="raws">
+                        <div class="col-md-3">
+                            <img src="pic/snake.png" alt="cover photo" style="width:127px;height:103px;">
+                        </div>
+                        <div class="col-md-9">
+                            <p>Ok, this is me.</p>
+                            <p>
+                            Uh, I mean I used to use this picture as my cover photo.<br>
+                            I think I have to type lots of words but I just don't know what to type, so let's just over this page.<br>
+                            And belows are some of my data.
+                            </p>
+                        </div>
+                    </div>
+                </div>
 
-        <div class="content">
-            <div id="center">
-                <img src="pic/snake.png" alt="cover photo" style="width:127px;height:103px;">
-                <p>Ok, this is me.</p>
-                <p>
-                Uh, I mean I used to use this picture as my cover photo.<br>
-                I think I have to type lots of words but I just don't know what to type, so let's just over this page.
-                </p>
+                <!-- Table -->
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>KEY</th>
+                                <th>VALUE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Name</td>
+                                <td>Bottle</td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td>F</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-
-            <form>
-                <p>Do You Like This Webpage?</p>
-                <input type="radio" name="yesorno"> yes!<br>
-                <input type="radio" name="yesorno"> No...<br>
-
-                <input type="text" name="text" placeholder="Tell me why you like/dislike this page:" size="40"><br>
-                <input type="submit" value="send to Bottle">
-            </form>
-
         </div>
+
+        <form>
+            Do You Like This Webpage?<br>
+            <input type="radio" name="yesorno"> yes!<br>
+            <input type="radio" name="yesorno"> No...<br><br>
+
+            <textarea class="form-control" rows="3" placeholder="Tell me why you like/dislike this page:" ></textarea><br>
+
+            <input type="submit" class="btn btn-primary" value="send to Bottle">
+        </form>
+
     </body>
 </html>
